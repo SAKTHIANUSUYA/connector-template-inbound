@@ -36,6 +36,12 @@
 
   <dependencies>
     <dependency>
+  <groupId>io.camunda.connector</groupId>
+  <artifactId>connector-test</artifactId>
+  <version>${version.connectors}</version>
+  <scope>test</scope>
+</dependency>
+    <dependency>
       <groupId>io.camunda.connector</groupId>
       <artifactId>connector-core</artifactId>
       <version>${version.connectors}</version>
