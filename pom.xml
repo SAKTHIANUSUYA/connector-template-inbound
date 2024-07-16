@@ -36,6 +36,13 @@
 
   <dependencies>
     <dependency>
+    <groupId>io.camunda.connector</groupId>
+    <artifactId>spring-boot-starter-camunda-connectors</artifactId>
+    <version>${version.connectors}</version>
+    ...
+</dependency>
+
+    <dependency>
   <groupId>io.camunda.connector</groupId>
   <artifactId>connector-test</artifactId>
   <version>${version.connectors}</version>
